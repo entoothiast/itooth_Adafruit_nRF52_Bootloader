@@ -30,10 +30,7 @@
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
-#define LEDS_NUMBER       2
-#define LED_PRIMARY_PIN   6 // Red
-#define LED_SECONDARY_PIN 12 // Blue
-#define LED_STATE_ON      0
+#define LEDS_NUMBER       0
 
 /*------------------------------------------------------------------*/
 /* BUTTON
@@ -59,7 +56,8 @@
 #define USB_DESC_UF2_PID       0x0029
 #define USB_DESC_CDC_ONLY_PID  0x0029
 
-#define UF2_PRODUCT_NAME  "Nordic nRF52840 Dongle"
+#define UF2_PRODUCT_NAME  "Nordic nRF52840 Dongle pogo84"
+#define UF2_VOLUME_LABEL  "nRF52840-pogo84"
 #define UF2_BOARD_ID      "nRF52840-pca10059-v1"
 #define UF2_INDEX_URL     "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52840-Dongle"
 
