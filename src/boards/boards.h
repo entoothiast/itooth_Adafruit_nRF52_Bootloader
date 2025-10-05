@@ -37,14 +37,6 @@
 #define UF2_VOLUME_LABEL   "NRF52BOOT  "
 #endif
 
-#ifndef BUTTON_DFU
-#define BUTTON_DFU      BUTTON_1
-#endif
-
-#ifndef BUTTON_FRESET
-#define BUTTON_FRESET   BUTTON_2
-#endif
-
 // The primary LED is usually Red but not in all cases.
 #define LED_PRIMARY 0
 // The secondary LED, when available, is usually blue.

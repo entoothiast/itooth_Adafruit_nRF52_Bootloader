@@ -74,9 +74,6 @@ void board_init(void) {
   NRF_CLOCK->LFCLKSRC = CLOCK_LFCLKSRC_SRC_RC;
   NRF_CLOCK->TASKS_LFCLKSTART = 1UL;
 
-  button_init(BUTTON_DFU);
-  button_init(BUTTON_FRESET);
-  NRFX_DELAY_US(100); // wait for the pin state is stable
 
 #if LEDS_NUMBER > 0
   // use PMW0 for LED RED
