@@ -21,6 +21,12 @@ Differences between `pca10059` and `pca10059-pogo84`:
 | Volume `NRF52BOOT`, File `INFO_UF2.TXT` | `Model: Nordic nRF52840 Dongle` | `Model: Nordic nRF52840 Dongle pogo84` |
 | Volume `CIRCUITPY`, File `boot_out.txt` | `Board ID:pca10059` | `Board ID:pca10059` |
 
+## How to add a `release` tag to trigger pushing an artifact
+
+```bash
+git tag -l "0.9*"
+
+
 ## Disabling the buttons
 
 src/boards/pca10059_pogo84/board.h
